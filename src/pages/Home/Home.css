@@ -1,0 +1,18 @@
+.MainConteiner {
+    display: flex;
+}
+
+.LeftSlider {
+    background-color: #F0F2F5;
+    flex: 3;
+}
+
+.PostSlider {
+    background-color: bisque;
+    flex: 5;
+}
+
+.RightSlider {
+    background-color: aquamarine;
+    flex: 3;
+}
