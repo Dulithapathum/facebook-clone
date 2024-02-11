@@ -1,0 +1,65 @@
+.LeftConteiner {
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(199, 199, 199);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(131, 131, 131);
+}
+
+.ListItem {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    padding-left: 5px;
+
+}
+
+.ListItem:hover {
+    background-color: #d0d2d6;
+}
+
+.ListItem h6 {
+
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.729);
+}
+
+.ListItem .icon {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.729);
+
+}
+
+.LeftConteiner .ListItem img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+li {
+    height: 52px;
+}
+
+.ListItem h4 {
+    color: rgb(88, 88, 88);
+}
+
+.ListItem-end {
+    margin: 10px;
+}
