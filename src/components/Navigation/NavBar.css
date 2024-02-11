@@ -1,0 +1,113 @@
+ /* Common style */
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+ }
+
+
+
+ /* NavBar Section  */
+
+ .navbar-box {
+
+     height: 56px;
+     width: 100%;
+     background-color: #316FF6;
+     display: flex;
+     position: sticky;
+
+ }
+
+
+
+ /* NavBar left Section */
+ .navbar-left {
+     flex: 4;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .navbar-left .navbar-title {
+     font-size: 26px;
+     color: white;
+     cursor: pointer;
+
+
+ }
+
+ .navbar-left .navbar-searchbox {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: #f0f2f5;
+     width: 240px;
+     height: 40px;
+     border-radius: 25px;
+     cursor: pointer;
+
+ }
+
+ .navbar-left .search-icon {
+     color: rgb(187, 187, 187);
+
+
+ }
+
+ .navbar-left input {
+     height: 50px;
+     width: 180px;
+     border-radius: 20px;
+     background-color: rgba(255, 255, 255, 0);
+     border: 0;
+     outline: none;
+     font-size: 16px;
+ }
+
+
+
+ /* NavBar Center Section  */
+ .navbar-center {
+     flex: 4;
+
+ }
+
+ .navbar-center .navbar-links {
+     padding-top: 13px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     cursor: pointer;
+     color: #ffffff;
+
+ }
+
+
+ /* NavBar Right Section  */
+ .navbar-right {
+     flex: 4;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .navbar-right .navbar-right-icons {
+     color: #ffffff;
+
+ }
+
+ .navbar-right .navbar-right-icon {
+     margin-right: 20px;
+     cursor: pointer;
+ }
+
+ .navbar-right .navbar-right-profile img {
+     margin-left: 100px;
+     width: 45px;
+     height: 45px;
+     object-fit: cover;
+     border-radius: 50%;
+     cursor: pointer;
+ }
