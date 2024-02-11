@@ -1,5 +1,12 @@
 import React from "react";
+import PostAddSection from "./PostAddSection/PostAddSection";
 import "./PostSlideBar.css";
 export default function PostSlideBar() {
-  return <div>PostSlideBar</div>;
+  return (
+    <>
+      <center>
+        <PostAddSection></PostAddSection>
+      </center>
+    </>
+  );
 }
