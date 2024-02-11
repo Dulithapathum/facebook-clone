@@ -7,7 +7,7 @@ import StorefrontIcon from "@mui/icons-material/Storefront";
 import GroupsIcon from "@mui/icons-material/Groups";
 import SettingsIcon from "@mui/icons-material/Settings";
 import NotificationsIcon from "@mui/icons-material/Notifications";
-import EmailIcon from "@mui/icons-material/Email";
+import MarkUnreadChatAltIcon from "@mui/icons-material/MarkUnreadChatAlt";
 import "./NavBar.css";
 
 export default function NavBar() {
@@ -61,10 +61,10 @@ export default function NavBar() {
               fontSize="large"
             ></NotificationsIcon>
 
-            <EmailIcon
+            <MarkUnreadChatAltIcon
               className="navbar-right-icon"
               fontSize="large"
-            ></EmailIcon>
+            ></MarkUnreadChatAltIcon>
           </div>
           <div className="navbar-right-icons">
             <SettingsIcon
