@@ -1,0 +1,91 @@
+.postaddsection {
+    margin-top: 30px;
+    width: 590px;
+    height: 125px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.section1 {
+    padding-top: 12px;
+    padding-left: 16px;
+    display: flex;
+    margin-bottom: 12px;
+
+}
+
+.section1 .profileimg {
+    margin-right: 10px;
+}
+
+.section1 img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.section1 .posttitle {
+    width: 510px;
+    height: 40px;
+    outline: none;
+    border: none;
+
+}
+
+.section1 .posttitle input:hover {
+    background-color: #e5e5ea;
+    transition: 0.15s;
+}
+
+.section1 .posttitle input {
+    padding-left: 10px;
+    width: 510px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #F0F2F5;
+
+}
+
+.section2 {
+    display: flex;
+    width: 558px;
+    height: 100px;
+    border-top: 1px rgb(216, 216, 216) solid;
+    padding: 9px;
+}
+
+.section2 .item {
+    width: 186px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s;
+}
+
+.section2 .item:hover {
+    border-radius: 20px;
+    background-color: #F0F2F5;
+}
+
+.section2 .item h5 {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.VideocamIcon {
+    color: rgb(231, 34, 24);
+
+}
+
+.CollectionsIcon {
+    color: #09ca5d;
+}
+
+.InsertEmoticonIcon {
+    color: #ebb70d;
+}
