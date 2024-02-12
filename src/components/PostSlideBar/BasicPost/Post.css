@@ -1,0 +1,218 @@
+.postsection {
+    margin-top: 30px;
+    width: 590px;
+    height: 955px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 50px;
+
+
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title-1 {
+    margin-right: 10px;
+}
+
+.title-2 h5 {
+    font-size: 15px;
+}
+
+.title-2 h5:hover {
+    text-decoration: underline;
+    transition: 0.25s;
+}
+
+.title-2 span {
+    font-size: 13px;
+    margin-left: 3px;
+    color: #9b9ba0;
+}
+
+.title-2 .PublicIcon {
+    margin-bottom: -3px;
+    color: #9b9ba0;
+
+}
+
+.title-1 img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.title-3 {
+    margin-left: 340px;
+
+}
+
+.title-3 .MoreHorizIcon:hover {
+    background-color: #e5e5ea;
+    border-radius: 20px;
+    transition: 0.15s;
+}
+
+.title-3 .CloseIcon:hover {
+    background-color: #e5e5ea;
+    border-radius: 20px;
+    transition: 0.15s;
+}
+
+.section-2 {
+    height: 20px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000d5;
+    margin-bottom: 10px;
+
+}
+
+.section-2 .MoodIcon {
+    margin-bottom: -7px;
+    color: orange;
+}
+
+.section-3 {
+    margin-bottom: 10px;
+}
+
+.section-3 img {
+    width: 570px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.section-4 .react {
+    margin-left: 5px;
+}
+
+.section-4 .react img {
+
+    width: 20px;
+    height: 20px;
+}
+
+.section-4 .react .img2,
+.img3 {
+    margin-left: -3px;
+}
+
+.section-4 .react-names {
+    margin-left: 5px;
+}
+
+.section-4 .comment-count {
+    margin-left: 55px;
+}
+
+.section-4 .react-names,
+.comment-count {
+    color: #8c8c92;
+}
+
+.comment-count:hover {
+    text-decoration: underline;
+    transition: 0.25s;
+}
+
+.react-names:hover {
+    text-decoration: underline;
+    transition: 0.25s;
+}
+
+.section-5 {
+    display: flex;
+    width: 558px;
+    height: 50px;
+    border-top: 1px rgb(216, 216, 216) solid;
+    border-bottom: 1px rgb(216, 216, 216) solid;
+    padding: 3px;
+}
+
+.section-5 .section-5-sub-item {
+    width: 186px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s;
+}
+
+.section-5 .section-5-sub-item:hover {
+
+    background-color: #F0F2F5;
+}
+
+.section-5 .section-5-sub-item h5 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.section-5 .section-5-sub-item {
+    color: #8c8c92;
+}
+
+.section-6 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.section-6 .section-6-img img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+
+.section-6 .posttitle {
+    width: 510px;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+
+}
+
+
+.section-6 .posttitle input:hover {
+    background-color: #e5e5ea;
+    transition: 0.15s;
+}
+
+.section-6 .posttitle input {
+    padding-left: 10px;
+    width: 510px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #F0F2F5;
+
+}
+
+.comment-icon {
+    margin-top: -30px;
+    margin-left: 350px;
+    color: #9b9ba0;
+}
+
+.comment-icon:hover {
+    color: #8c8c92;
+}
